@@ -1,0 +1,9 @@
+POST http://localhost:3000/contact-us
+content-type: application/json
+
+{
+    "from": "xxx@gmail.com",
+    "subject": "Email with sendgrid",
+    "text": "Email body"
+}
+ 
